@@ -50,6 +50,9 @@ typings/
 # Optional npm cache directory
 .npm
 
+# Electron-forge build
+/out/*
+
 # Optional eslint cache
 .eslintcache
 
