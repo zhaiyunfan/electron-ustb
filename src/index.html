@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-    <h2>icon of Electron</h2>
-    <img src="../images/electron-icon.jpg" alt="icon of Electron which is best frame of GUI">
-    <p>这是一个段落</p>
-      <ul>
-        <li>这是无序列表的第一行</li>
-        <li>这是无序列表的第二行</li>
-        <li>这是无序列表的第三行</li>
-      </ul>
-      <ol>
-        <li>这是有序列表的第一行</li>
-        <li>这是有序列表的第一行</li>
-        <li>这是有序列表的第一行</li>
-      </ol>
-    <a href="https://www.electronjs.org/">Electron官网</a>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h1>💖 Hello World!</h1>
+  <h2></h2>
+  <p>Welcome to your Electron application.</p>
+  <p id="changePic">点击这里展示Electron的icon</p>
+  <img id="pic" src="../images/electron-icon.jpg" alt="icon of Electron which is best frame of GUI">
+  <p>你可以通过以下方式入门Electron</p>
+  <ul>
+    <li>如果你有前端基础，
+      <strong>
+        可以直接去
+        <a href="https://www.electronjs.org/">Electron官网</a>
+        阅读文档，开始你的学习
+      </strong>
+    </li>
+    <li>
+      如果你没有前端基础，
+      <strong>
+        可以直接去
+        <a href="https://developer.mozilla.org/zh-CN/">MDN</a>
+        从零开始学习HTML\CSS\JS
+      </strong>
+    </li>
+    <li>
+      当然你也可以跟随
+      <a href="https://github.com/zhaiyunfan/electron-ustb">本项目</a>
+      的脚步，开始你的Electron之旅
+    </li>
+  </ul>
+  <ol>
+    <li>学习HTML</li>
+    <li>学习CSS</li>
+    <li>学习JavaScript</li>
+    <li>学习Electron</li>
+  </ol>
+  <button>切换用户</button>
+  <script src="../scripts/main.js" defer></script>
+</body>
+
 </html>

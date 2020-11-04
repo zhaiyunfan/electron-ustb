@@ -1,15 +1,53 @@
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+p, li {
+  /* color: #4e9df7; */
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
 }
-p,h2,h3,h4 {
-  color: #4e9df7;
-}
+
 h1 {
-  color: tomato;
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
 }
-image {
-  border: 100px solid #4e9df7;
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #4e9df7;
+  text-shadow: 3px 3px 1px black;
+}
+
+html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 10px;
+  /* Google fonts 输出的 CSS */
+  font-family: 'Open Sans', sans-serif;
+  background-color: #00539F;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  background-color: brown;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
 }
