@@ -4,6 +4,12 @@ body {
   max-width: 38rem;
   padding: 2rem;
 }
-p {
+p,h2,h3,h4 {
   color: #4e9df7;
+}
+h1 {
+  color: tomato;
+}
+image {
+  border: 100px solid #4e9df7;
 }
