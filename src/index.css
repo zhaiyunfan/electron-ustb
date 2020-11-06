@@ -46,8 +46,9 @@ img {
 }
 
 button {
-  background-color: brown;
+  background-color: #4e9df7;
+  align-self: center;
   text-align: center;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
 }
